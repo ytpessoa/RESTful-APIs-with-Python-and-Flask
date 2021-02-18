@@ -1,0 +1,27 @@
+pip install virtualenv
+c:\users\ytallo.brito.pessoa\appdata\local\programs\python\python39\python.exe -m pip install --upgrade pip
+
+#Cria:
+virtualenv ambvirt --python=python3.9
+
+#Ativa:
+Windows: ambvirt\Scripts\activate.bat
+Linux:   source ambvirt/bin/activate
+
+#Bibliotecas
+> pip install Flask
+> pip install Flask-Restful
+
+#Quais bibliotecas instaladas 
+> pip freeze
+aniso8601==8.1.1
+click==7.1.2
+Flask==1.1.2
+Flask-RESTful==0.3.8
+itsdangerous==1.1.0
+Jinja2==2.11.3
+MarkupSafe==1.1.1
+pytz==2021.1
+six==1.15.0
+Werkzeug==1.0.1
+
